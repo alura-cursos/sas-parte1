@@ -20,8 +20,6 @@ RUN;
 DATA teste;
 set alura.cadastro_produto;
 
-LENGTH lancamento 3;
-
 IF data > 201606
 	THEN lancamento = 1;
 	ELSE lancamento = 0;
